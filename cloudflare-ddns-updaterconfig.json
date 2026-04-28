@@ -1,0 +1,53 @@
+[
+    {
+        "DisplayName": "Cloudflare API Token",
+        "Category": "Server Settings",
+        "Description": "Your Cloudflare API token, required for changing DNS settings.",
+        "Keywords": "cloudflare,api,token",
+        "FieldName": "cf-api-token",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "cf-api-token",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "token",
+        "Placeholder": "token",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Domains to Manage",
+        "Category": "Server Settings",
+        "Description": "List of domains to point to this IP, comma seperated.",
+        "Keywords": "domains,to,manage",
+        "FieldName": "domain",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "domain",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "\"example.com\",\"web.example.io\"",
+        "Placeholder": "\"example.com\",\"web.example.io\"",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "IP Check Interval",
+        "Category": "Server Settings",
+        "Description": "How often the IP is checked to see if it changes.",
+        "Keywords": "ip,check,interval",
+        "FieldName": "interval",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "interval",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "10m",
+        "Placeholder": "10m",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    }
+]
